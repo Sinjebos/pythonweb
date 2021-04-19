@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 def home():
-    return "<h1> Hej välkommen till min coola hemsida, detta är STAGING. </h1> <h2> hur blir detta </h2>"
+    return "<h1> Hej välkommen till min coola hemsida, detta är DEV. </h1> <h2> hur blir detta </h2>"
 
 
 app.run()
